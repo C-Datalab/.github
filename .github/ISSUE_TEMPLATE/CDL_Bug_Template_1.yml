@@ -47,7 +47,7 @@ body:
         - Chrome
         - Safari
         - Microsoft Edge       
-    - type: checkboxes
+   - type: checkboxes
     id: Platform
     attributes:
       label: Platforms
