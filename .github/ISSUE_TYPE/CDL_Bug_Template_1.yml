@@ -1,0 +1,56 @@
+name: 🐞 CDL Bug Report
+description: Bug Report
+title: "[CDL BUG]: "
+labels: ["bug"]
+#assignees:
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please provide as much information as possible.
+  - type: textarea
+    id: issue-description
+    attributes:
+      label: What happened?
+      description: Also tell us, what did you expect to happen?
+      placeholder: What happened where?
+    validations:
+      required: true
+  - type: dropdown
+    id: severity
+    attributes:
+      label: Severity
+      multiple: false
+      options:
+        - Sev 1 - 🔥 Show-stopper
+        - Sev 2 - 🛑 System Stops
+        - Sev 3 - 👎 Normal, system keeps running
+        - Sev 4 - 🫤 Minor, can work around
+        - Sev 5 - 🎨 Cosmetic
+        - Sev 6 - ❓ Question
+  - type: textarea
+    id: screen-caps
+    attributes:
+      label: Screen Captures
+      description: Paste in pictures of the issue
+      placeholder: (before/after etc)
+    validations:
+      required: false
+  - type: dropdown
+    id: browsers
+    attributes:
+      label: What browsers are you seeing the problem on?
+      multiple: false
+      options:
+        - n/a
+        - Firefox
+        - Chrome
+        - Safari
+        - Microsoft Edge       
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant log output
+      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
+      render: shell
+ 

@@ -1,0 +1,46 @@
+name: 📜 CDL Task
+description: CDL Main Task / Story Template
+title: "[CDL TASK]: "
+labels: ["task"]
+#assignees:
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This is template for user stories and engineering tasks.
+  - type: input
+    id: request_summary
+    attributes:
+      label: Summary of Request
+      description: summarize the the request in a sentence
+      placeholder: Create an X Widget to do Y
+    validations:
+      required: true
+  - type: textarea
+    id: request_body
+    attributes:
+      label: The request in full.
+      description: |
+       💡 Tip: use "agile user story structure".  Add any attachments or images you need by dragging them onto this box.
+      placeholder: |
+       examples:
+       - As a _____ I want to _____ so I can _____
+       - Please move the language control to the leftmost position (see screenshot)
+       - Please get an extract of the log files for the batch system between 2023-12-24 and 2023-12-25 UTC
+      render: markdown
+    validations:
+      required: true
+  - type: textarea
+    id: request_acceptance
+    attributes:
+      label: Acceptance Criteria
+      description: How do we know we have succeeeded? Outcomes, Measures & Metrics.
+      placeholder: |
+       examples:
+       - All menus in Japanese by default
+       - System processes a file of 10,000 records in <10 mins.
+      render: markdown
+  - type: markdown
+    attributes:
+      value: |
+       > **:bulb: Don't forget to set Project, Assignee and Other labels on the Right pane 👉**
