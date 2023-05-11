@@ -50,8 +50,8 @@ body:
   - type: checkboxes
     id: Platform
     attributes:
-    label: Platforms
-    options:
+      label: Platforms
+      options:
         - label: 🖥️ Desktop
         - label: 📱 Mobile
   - type: textarea
