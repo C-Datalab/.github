@@ -47,6 +47,13 @@ body:
         - Chrome
         - Safari
         - Microsoft Edge       
+    - type: checkboxes
+    id: Platform
+    attributes:
+      label: Platforms
+      options:
+        - label: 🖥️ Desktop
+        - label: 📱 Mobile
   - type: textarea
     id: logs
     attributes:
