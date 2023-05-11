@@ -27,7 +27,6 @@ body:
        - As a _____ I want to _____ so I can _____
        - Please move the language control to the leftmost position (see screenshot)
        - Please get an extract of the log files for the batch system between 2023-12-24 and 2023-12-25 UTC
-      render: markdown
     validations:
       required: true
   - type: textarea
@@ -39,7 +38,6 @@ body:
        examples:
        - All menus in Japanese by default
        - System processes a file of 10,000 records in <10 mins.
-      render: markdown
   - type: markdown
     attributes:
       value: |
