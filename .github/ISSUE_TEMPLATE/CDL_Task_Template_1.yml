@@ -23,6 +23,15 @@ body:
       description: If this is time-bound please put deadline here
     validations:
       required: false
+  - type: checkboxes
+  id: operating-systems
+  attributes:
+    label: Which operating systems have you used?
+    description: You may select more than one.
+    options:
+      - label: macOS
+      - label: Windows
+      - label: Linux
   - type: textarea
     id: request_body
     attributes:
