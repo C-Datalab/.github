@@ -21,6 +21,7 @@ body:
     attributes:
       label: Due Date / Deadline
       description: If this is time-bound please put deadline here
+      placeholder: n/a
     validations:
       required: false
   - type: checkboxes
