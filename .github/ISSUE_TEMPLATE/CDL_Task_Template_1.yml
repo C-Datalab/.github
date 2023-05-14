@@ -24,14 +24,12 @@ body:
     validations:
       required: false
   - type: checkboxes
-    id: operating-systems
+    id: hard_deadline
     attributes:
-      label: Which operating systems have you used?
-      description: You may select more than one.
+      label: Is this a hard deadline?
+      description:
       options:
-        - label: macOS
-        - label: Windows
-        - label: Linux
+        - label: Hard Deadline
   - type: textarea
     id: request_body
     attributes:
