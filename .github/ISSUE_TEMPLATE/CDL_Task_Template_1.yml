@@ -23,12 +23,6 @@ body:
       description: If this is time-bound please put deadline here
     validations:
       required: false
-  - type: checkboxes
-    id: hard_deadline
-    label: Is this a hard deadline?
-    attributes:
-      options:
-        - label: Hard Deadline
   - type: textarea
     id: request_body
     attributes:
