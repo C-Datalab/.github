@@ -25,6 +25,7 @@ body:
       required: false
   - type: checkboxes
     id: hard_deadline
+    label: Is this a hard deadline?
     attributes:
       options:
         - label: Hard Deadline
