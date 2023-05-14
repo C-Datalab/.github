@@ -16,6 +16,18 @@ body:
       placeholder: Create an X Widget to do Y
     validations:
       required: true
+  - type: input
+    id: due_date
+    attributes:
+      label: Due Date / Deadline
+      description: If this is time-bound please put deadline here
+    validations:
+      required: false
+  - type: checkboxes
+    id: hard_deadline
+    attributes:
+      options:
+        - label: Hard Deadline
   - type: textarea
     id: request_body
     attributes:
