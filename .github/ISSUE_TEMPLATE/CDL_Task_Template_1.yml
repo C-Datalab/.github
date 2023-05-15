@@ -20,17 +20,18 @@ body:
     id: due_date
     attributes:
       label: Due Date / Deadline
-      description: If this is time-bound please put deadline here
+      description: If this is time-bound please put end date here (any format is OK)
       placeholder: n/a
     validations:
       required: false
-  - type: checkboxes
-    id: hard_deadline
+  - type: dropdown
+    id: has_deadline
     attributes:
-      label: Is this a hard deadline?
-      description:
+      label: Is this date a hard Deadline?
+      description: If you selected a date above, please choose an option.
       options:
-        - label: Hard Deadline
+        - 🎯 Due Date
+        - 🔥 Deadline
   - type: textarea
     id: request_body
     attributes:
