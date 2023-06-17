@@ -9,14 +9,6 @@ body:
       value: |
         This is template for user stories and engineering tasks.
   - type: input
-    id: request_summary
-    attributes:
-      label: Summary of Request
-      description: summarize the the request in a sentence
-      placeholder: Create an X Widget to do Y
-    validations:
-      required: true
-  - type: input
     id: due_date
     attributes:
       label: Due Date / Deadline
