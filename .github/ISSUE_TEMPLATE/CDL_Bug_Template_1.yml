@@ -28,14 +28,6 @@ body:
         - Sev 4 - 🫤 Minor, can work around
         - Sev 5 - 🎨 Cosmetic
         - Sev 6 - ❓ Question
-  - type: textarea
-    id: screen-caps
-    attributes:
-      label: Screen Captures
-      description: Paste in pictures of the issue
-      placeholder: (before/after etc)
-    validations:
-      required: false
   - type: dropdown
     id: browsers
     attributes:
