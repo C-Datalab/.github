@@ -1,7 +1,7 @@
 name: 📜 CDL Task
 description: CDL Main Task / Story Template
 title: "[CDL TASK]: "
-labels: ["enhancement"]
+labels: ["task"]
 #assignees:
 body:
   - type: markdown
