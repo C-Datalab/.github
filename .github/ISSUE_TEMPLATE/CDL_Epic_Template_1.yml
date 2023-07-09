@@ -1,0 +1,22 @@
+name: ❎ CDL Epic
+description: CDL Epic template
+title: "[CDL EPIC]: "
+labels: ["epic"]
+#assignees:
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This is template for epics (high-level tasks that contain other tasks).
+  - type: textarea
+    id: request_body
+    attributes:
+      label: Add sub tasks by copying full link & pasting in as checkbox item
+      placeholder: |
+       - [ ] [task description](url)
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: |
+       > **:bulb: Don't forget to set Project, Assignee and Other labels on the Right pane 👉**
