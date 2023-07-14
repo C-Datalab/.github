@@ -39,6 +39,15 @@ body:
         - Chrome
         - Safari
         - Microsoft Edge       
+  - type: dropdown
+    id: environments
+    attributes:
+      label: What environment(s) does this apply to?
+      multiple: true
+      options:
+        - Production
+        - Dev
+        - Design
   - type: checkboxes
     id: Platform
     attributes:
