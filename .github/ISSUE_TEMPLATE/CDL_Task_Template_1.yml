@@ -38,18 +38,6 @@ body:
     validations:
       required: true
   - type: textarea
-    id: sub_tasks
-    attributes:
-      label: Sub-Tasks.
-      description: |
-       💡 Create tasks or paste URLs of other issues to link them, or create issues from a task in the list.  Clear the section if N/A.
-      value: |
-        ```[tasklist]
-        - [ ] subtask_sample
-        ```
-    validations:
-      required: false
-  - type: textarea
     id: request_acceptance
     attributes:
       label: Acceptance Criteria
