@@ -11,11 +11,23 @@ body:
   - type: textarea
     id: request_body
     attributes:
-      label: Add sub tasks by copying full link & pasting in as checkbox item
+      label: Brief description
       placeholder: |
-       - [ ] [task description](url)
+        Brief description of the topic.
     validations:
       required: true
+  - type: textarea
+    id: sub_tasks
+    attributes:
+      label: child_issues
+      description: |
+       💡 Create tasks or paste URLs of other issues to link them, or create issues from a task in the list.
+      value: |
+        ```[tasklist]
+        - [ ] subtask_sample
+        ```
+    validations:
+      required: false
   - type: markdown
     attributes:
       value: |
