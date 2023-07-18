@@ -42,10 +42,10 @@ body:
     attributes:
       label: Sub-Tasks.
       description: |
-       💡 youy can paste URLs of other issues to link them, or create issues from a task in the list.
+       💡 Create tasks or paste URLs of other issues to link them, or create issues from a task in the list.  Clear the section if N/A.
       value: |
         ```[tasklist]
-        - [ ] 
+        - [ ] subtask_sample
         ```
     validations:
       required: false
