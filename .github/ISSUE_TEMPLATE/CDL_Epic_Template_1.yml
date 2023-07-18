@@ -17,9 +17,9 @@ body:
     validations:
       required: true
   - type: textarea
-    id: sub_tasks
+    id: child_issues
     attributes:
-      label: child_issues
+      label: Linked Issues
       description: |
        💡 Create tasks or paste URLs of other issues to link them, or create issues from a task in the list.
       value: |
