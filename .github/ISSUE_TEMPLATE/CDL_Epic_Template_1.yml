@@ -16,18 +16,6 @@ body:
         Brief description of the topic.
     validations:
       required: true
-  - type: textarea
-    id: child_issues
-    attributes:
-      label: Linked Issues
-      description: |
-       💡 Create tasks or paste URLs of other issues to link them, or create issues from a task in the list.
-      value: |
-        ```[tasklist]
-        - [ ] subtask_sample
-        ```
-    validations:
-      required: false
   - type: markdown
     attributes:
       value: |
