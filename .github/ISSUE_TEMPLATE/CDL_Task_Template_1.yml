@@ -35,11 +35,17 @@ body:
        - As a _____ I want to _____ so I can _____
        - Please move the language control to the leftmost position (see screenshot)
        - Please get an extract of the log files for the batch system between 2023-12-24 and 2023-12-25 UTC
+    validations:
+      required: true
+  - type: textarea
+    id: sub_tasks
+    attributes:
+      label: Sub-Tasks.
+      description: |
+       💡 youy can paste URLs of other issues to link them, or create issues from a task in the list.
       value: |
         ```[tasklist]
-        ### My tasks
-        - [ ] https://github.com/octo-org/octo-repo/issues/45
-        - [ ] Draft task
+        - [ ] 
         ```
     validations:
       required: true
