@@ -11,7 +11,7 @@ body:
   - type: textarea
     id: request_body
     attributes:
-      label: Jobs to Be Done
+      label: (1) Jobs to Be Done
       description: |
        💡 Tip: use "agile user story structure".  Add any attachments or images you need by dragging them onto this box.
       placeholder: |
@@ -24,7 +24,7 @@ body:
   - type: textarea
     id: request_acceptance
     attributes:
-      label: Acceptance Criteria
+      label: (2) Acceptance Criteria
       description: How do we know we have succeeded? Outcomes, Measures & Metrics.
       placeholder: |
        examples:
