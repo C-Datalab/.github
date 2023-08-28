@@ -8,26 +8,10 @@ body:
     attributes:
       value: |
         This is template for user stories and engineering tasks.
-  - type: input
-    id: due_date
-    attributes:
-      label: Due Date / Deadline
-      description: If this is time-bound please put end date here (any format is OK)
-      placeholder: n/a
-    validations:
-      required: false
-  - type: dropdown
-    id: has_deadline
-    attributes:
-      label: Is this date a hard Deadline?
-      description: If you selected a date above, please choose an option.
-      options:
-        - 🎯 Due Date
-        - 🔥 Deadline
   - type: textarea
     id: request_body
     attributes:
-      label: The request in full.
+      label: Jobs to Be Done
       description: |
        💡 Tip: use "agile user story structure".  Add any attachments or images you need by dragging them onto this box.
       placeholder: |
@@ -41,7 +25,7 @@ body:
     id: request_acceptance
     attributes:
       label: Acceptance Criteria
-      description: How do we know we have succeeeded? Outcomes, Measures & Metrics.
+      description: How do we know we have succeeded? Outcomes, Measures & Metrics.
       placeholder: |
        examples:
        - All menus in Japanese by default
@@ -49,4 +33,4 @@ body:
   - type: markdown
     attributes:
       value: |
-       > **:bulb: Don't forget to set Project, Assignee and Other labels on the Right pane 👉**
+       > **:bulb: Don't forget to set Size, % Complete, Assignee and Other labels on the Right pane 👉**
