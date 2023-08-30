@@ -1,6 +1,5 @@
 name: 📜 CDL Task
 description: CDL Main Task / Story Template
-title: "[CDL TASK]: "
 labels: ["task"]
 #assignees:
 body:
