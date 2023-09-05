@@ -24,8 +24,8 @@ body:
       options:
         - Sev 1 - 🔥 Show-stopper
         - Sev 2 - 🛑 System Stops
-        - Sev 3 - 👎 Normal: Significant problem but system keeps running
-        - Sev 4 - 🫤 Minor: can work around
+        - Sev 3 - 👎 Normal\: Significant problem but system keeps running
+        - Sev 4 - 🫤 Minor\: can work around
         - Sev 5 - 🎨 Cosmetic
         - Sev 6 - ❓ Question
   - type: dropdown
