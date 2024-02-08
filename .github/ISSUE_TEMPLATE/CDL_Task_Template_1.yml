@@ -15,10 +15,9 @@ body:
        💡 Tip: use "agile user story structure".  Add any attachments or images you need by dragging them onto this box.
       placeholder: |
        examples:
-       - As a _____ I want to _____ so I can _____ <br/>
+       - As a _____ I want to _____ so I can _____
        - Please move the language control to the leftmost position (see screenshot)
        - Please get an extract of the log files for the batch system between 2023-12-24 and 2023-12-25 UTC
-       ---
     validations:
       required: true
   - type: textarea
