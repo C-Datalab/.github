@@ -1,6 +1,6 @@
 name: 🐞 CDL Bug Report
 description: Bug Report
-title: "[CDL BUG]: "
+title: "[🐞]: "
 labels: ["bug"]
 #assignees:
 body:
