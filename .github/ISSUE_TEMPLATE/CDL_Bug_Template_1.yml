@@ -48,7 +48,7 @@ body:
         - Production
         - Dev
         - Design
-  - type: checkboxes
+  - type: dropdown
     id: Platform
     attributes:
       label: Platforms
