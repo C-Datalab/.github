@@ -1,6 +1,6 @@
 name: 🐞 CDL Bug Report
 description: Bug Report
-title: "[🐞]: "
+title: "[🐞 CDL BUG]: "
 labels: ["bug"]
 #assignees:
 body:
@@ -52,9 +52,11 @@ body:
     id: Platform
     attributes:
       label: Platforms
+      multiple: true
       options:
         - label: 🖥️ Desktop
         - label: 📱 Mobile
+      default: 0
   - type: textarea
     id: logs
     attributes:
