@@ -43,12 +43,12 @@ body:
     id: environments
     attributes:
       label: What environment(s) does this apply to?
-      multiple: true
+      multiple: false
       options:
         - Production
         - Dev
         - Design
-      default: Production
+      default: 0
   - type: dropdown
     id: Platform
     attributes:
