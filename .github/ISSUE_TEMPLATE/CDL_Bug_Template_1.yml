@@ -48,6 +48,7 @@ body:
         - Production
         - Dev
         - Design
+      default: 0
   - type: dropdown
     id: Platform
     attributes:
