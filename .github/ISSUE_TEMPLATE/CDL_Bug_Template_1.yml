@@ -54,8 +54,8 @@ body:
       label: Platforms
       multiple: true
       options:
-        - label: 🖥️ Desktop
-        - label: 📱 Mobile
+        - 🖥️ Desktop
+        - 📱 Mobile
       default: 0
   - type: textarea
     id: logs
