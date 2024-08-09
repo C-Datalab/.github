@@ -29,8 +29,10 @@ body:
        examples:
        - All menus in Japanese by default
        - System processes a file of 10,000 records in <10 mins.
-       - Need to pass [UI tests](https://github.com/C-Datalab/CDL-Automated-Tests/actions/workflows/ManualPublishToTestmo.yml)
+       - Need to pass UI tests
   - type: markdown
     attributes:
       value: |
+       
+	          [UI tests](https://github.com/C-Datalab/CDL-Automated-Tests/actions/workflows/ManualPublishToTestmo.yml)
        > **:bulb: Don't forget to set Size, % Complete, Assignee and Other labels on the Right pane 👉**
