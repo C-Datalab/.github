@@ -33,6 +33,5 @@ body:
   - type: markdown
     attributes:
       value: |
-       
-	          [UI tests](https://github.com/C-Datalab/CDL-Automated-Tests/actions/workflows/ManualPublishToTestmo.yml)
+       [UI tests](https://github.com/C-Datalab/CDL-Automated-Tests/actions/workflows/ManualPublishToTestmo.yml)
        > **:bulb: Don't forget to set Size, % Complete, Assignee and Other labels on the Right pane 👉**
