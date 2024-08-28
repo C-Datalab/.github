@@ -34,7 +34,7 @@ body:
         - All menus in Japanese by default
         - System processes a file of 10,000 records in <10 mins.
         - Need to pass UI tests
-        - [UI tests]:https://github.com/C-Datalab/CDL-Automated-Tests/actions/workflows/ManualPublishToTestmo.yml
+        - [UI tests](https://github.com/C-Datalab/CDL-Automated-Tests/actions/workflows/ManualPublishToTestmo.yml)
       render: markdown
     validations:
       required: false
