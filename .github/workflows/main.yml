@@ -10,7 +10,22 @@ jobs:
     name: Add issue to project
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/add-to-project@v0.5.0
+      - name: Add to project
+        uses: actions/add-to-project@v0.5.0
         with:
           project-url: https://github.com/orgs/C-Datalab/projects/1
           github-token: ${{ secrets.ISSUE_PAT }}
+      - name: Post a reminder comment on the issue
+        uses: actions/github-script@v6
+        with:
+          script: |
+            const issue_number = context.issue.number;
+            const owner = context.repo.owner;
+            const repo = context.repo.repo;
+  
+            await github.rest.issues.createComment({
+              issue_number: issue_number,
+              owner: owner,
+              repo: repo,
+              body: 'Run the [UI tests](https://github.com/C-Datalab/CDL-Automated-Tests/actions/workflows/ManualPublishToTestmo.yml), ensuring they pass'
+            });
