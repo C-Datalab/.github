@@ -33,9 +33,9 @@ body:
       value: |
         - All menus in Japanese by default
         - Need to run and pass: [UI tests](https://github.com/C-Datalab/CDL-Automated-Tests/actions/workflows/ManualPublishToTestmo.yml)
-    render: markdown
-  validations:
-    required: false
+      render: markdown
+      validations:
+        required: false
   - type: markdown
     attributes:
       value: |
