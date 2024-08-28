@@ -25,6 +25,7 @@ body:
     attributes:
       label: (2) Acceptance Criteria
       description: How do we know we have succeeded? Outcomes, Measures & Metrics.
+      link: "https://github.com/C-Datalab/CDL-Automated-Tests/actions/workflows/ManualPublishToTestmo.yml"
       placeholder: |
        examples:
        - All menus in Japanese by default
