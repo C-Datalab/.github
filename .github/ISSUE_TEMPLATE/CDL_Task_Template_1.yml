@@ -23,7 +23,7 @@ body:
   - type: textarea
     id: request_acceptance
     attributes:
-      label: (2) Acceptance Criteria
+      label: (2) Acceptance Criteria [UI tests](https://github.com/C-Datalab/CDL-Automated-Tests/actions/workflows/ManualPublishToTestmo.yml). 
       description: How do we know we have succeeded? Outcomes, Measures & Metrics.
       placeholder: |
        examples:
