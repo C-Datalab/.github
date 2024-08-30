@@ -12,7 +12,7 @@ body:
     attributes:
       label: (1) Jobs to Be Done
       description: |
-       💡 Tip: use "agile user story structure".  Add any attachments or images you need by dragging them onto this box.
+       💡 Tip: Add any attachments or images you need by dragging them onto this box.
       placeholder: |
        examples:
        - As a _____ I want to _____ so I can _____
@@ -29,8 +29,15 @@ body:
        examples:
        - All menus in Japanese by default
        - System processes a file of 10,000 records in <10 mins.
+    validations:
+      required: false
+  - type: textarea
+    id: request_qa
+    attributes:
+      label: (3) QA & Testing
+      description: How do we know we have succeeded? Outcomes, Measures & Metrics.
       value: |
-        - Need to pass UI tests
+        - Must pass UI tests
         - [UI tests](https://github.com/C-Datalab/CDL-Automated-Tests/actions/workflows/ManualPublishToTestmo.yml)
     validations:
       required: false
