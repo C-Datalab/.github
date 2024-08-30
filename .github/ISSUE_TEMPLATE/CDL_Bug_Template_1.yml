@@ -48,7 +48,7 @@ body:
         - Production
         - Dev
         - Design
-      #default: 0
+      default: 0
   - type: dropdown
     id: Platform
     attributes:
@@ -57,9 +57,19 @@ body:
       options:
         - 🖥️ Desktop
         - 📱 Mobile
-      #default: 0
+      default: 0
   - type: textarea
     id: logs
     attributes:
       label: Relevant log output
       description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
+  - type: textarea
+    id: request_qa
+    attributes:
+      label: QA & Testing
+      description: Do not remove lines below. Add any specific testing instructions or notes here.
+      value: |
+        - Must pass UI tests
+        - [UI tests](https://github.com/C-Datalab/CDL-Automated-Tests/actions/workflows/ManualPublishToTestmo.yml)
+    validations:
+      required: false
