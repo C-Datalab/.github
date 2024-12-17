@@ -9,6 +9,7 @@ body:
     attributes:
       value: |
         Please provide as much information as possible.
+        Statuses: 🟣🟠🩷🟡✅🛑🔵
   - type: textarea
     id: issue-description
     attributes:
