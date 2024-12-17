@@ -8,13 +8,13 @@ body:
     attributes:
       value: |
         This is template for user stories and engineering tasks.  
-        Statuses: 🟣🟠🩷🟡✅🛑🔵
   - type: textarea
     id: request_body
     attributes:
       label: (1) Jobs to Be Done
       description: |
-       💡 Tip: Add any attachments or images you need by dragging them onto this box.
+        Statuses: 🟣🟠🩷🟡✅🛑🔵
+        💡 Tip: Add any attachments or images you need by dragging them onto this box.
       placeholder: |
        examples:
        - As a _____ I want to _____ so I can _____
