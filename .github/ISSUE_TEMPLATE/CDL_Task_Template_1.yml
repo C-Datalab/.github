@@ -15,7 +15,7 @@ body:
       label: Statuses 🟣🟠🟡🩷✅🛑🔵
       placeholder: "🟣🟠🟡🩷✅🛑🔵"
     validations:
-      required: true
+      required: false
   - type: textarea
     id: request_body
     attributes:
