@@ -5,11 +5,16 @@ type: Bug
 labels: ["bug"]
 #assignees:
 body:
+  - type: input
+    id: dots
+    attributes:
+      label: Statuses 🟣🟠🟡🩷✅🛑🔵
+    validations:
+      required: false
   - type: markdown
     attributes:
       value: |
         Please provide as much information as possible.
-        Statuses: 🟣🟠🩷🟡✅🛑🔵
   - type: textarea
     id: issue-description
     attributes:
