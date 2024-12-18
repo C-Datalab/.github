@@ -9,14 +9,13 @@ body:
     attributes:
       value: |
         This is template for user stories and engineering tasks.  
-  - type: textarea
+  - type: input
     id: dots
     attributes:
       label: Statuses 🟣🟠🟡🩷✅🛑🔵
-      description:
-      placeholder: Statuses 🟣🟠🟡🩷✅🛑🔵
+      placeholder: "🟣🟠🟡🩷✅🛑🔵"
     validations:
-      required: false
+      required: true
   - type: textarea
     id: request_body
     attributes:
