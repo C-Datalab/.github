@@ -12,9 +12,9 @@ body:
   - type: textarea
     id: dots
     attributes:
-      label: Statuses: 🟣🟠🟡🩷✅🛑🔵
+      label: Statuses 🟣🟠🟡🩷✅🛑🔵
       description:
-      placeholder: Statuses: 🟣🟠🟡🩷✅🛑🔵
+      placeholder: Statuses 🟣🟠🟡🩷✅🛑🔵
     validations:
       required: false
   - type: textarea
