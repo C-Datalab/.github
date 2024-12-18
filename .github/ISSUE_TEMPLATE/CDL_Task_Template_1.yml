@@ -12,9 +12,10 @@ body:
   - type: textarea
     id: request_body
     attributes:
-      label: (1) Jobs to Be Done
-      description: |
-        Statuses: 🟣🟠🩷🟡✅🛑🔵
+      label: | 
+      Statuses: 🟣🟠🩷🟡✅🛑🔵
+      (1) Jobs to Be Done
+      description:
       placeholder: |
        examples:
        - As a _____ I want to _____ so I can _____
