@@ -13,7 +13,6 @@ body:
     id: dots
     attributes:
       label: Statuses 🟣🟠🟡🩷✅🛑🔵
-      placeholder: "🟣🟠🟡🩷✅🛑🔵"
     validations:
       required: false
   - type: textarea
