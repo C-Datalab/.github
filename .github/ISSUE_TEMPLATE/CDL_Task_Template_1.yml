@@ -1,5 +1,5 @@
 name: 📜 CDL Task
-title: "🟣"
+title: "🟣 "
 description: CDL Main Task / Story Template
 labels: []
 type: Enhancement
@@ -9,12 +9,6 @@ body:
     attributes:
       value: |
         This is template for user stories and engineering tasks.  
-  - type: input
-    id: dots
-    attributes:
-      label: Statuses 🟣🟠🟡🩷✅🛑🔵
-    validations:
-      required: false
   - type: textarea
     id: request_body
     attributes:
