@@ -10,9 +10,17 @@ body:
       value: |
         This is template for user stories and engineering tasks.  
   - type: textarea
+    id: dots
+    attributes:
+      label: Statuses: 🟣🟠🟡🩷✅🛑🔵
+      description:
+      placeholder: Statuses: 🟣🟠🟡🩷✅🛑🔵
+    validations:
+      required: false
+  - type: textarea
     id: request_body
     attributes:
-      label: Statuses: 🟣🟠🩷🟡✅🛑🔵 <br> (1) Jobs to Be Done
+      label: (1) Jobs to Be Done
       description:
       placeholder: |
        examples:
