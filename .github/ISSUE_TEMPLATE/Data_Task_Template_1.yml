@@ -1,0 +1,39 @@
+name: 📊 Data Task
+title: ""
+description: CDL Data Task Template
+labels: []
+type: Enhancement
+#assignees:
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This is template for tasks for the Data Team.
+  - type: textarea
+    id: request_body
+    attributes:
+      label: (1) Jobs to Be Done
+      description:
+      placeholder: |
+       examples:
+       - As a _____ I want to _____ so I can _____.
+       - Change data loading script so that unincorporated companies are excluded.
+       - Add rolling backups to the AWS Postgres managed database.
+    validations:
+      required: true
+  - type: textarea
+    id: request_acceptance
+    attributes:
+      label: (2) Acceptance Criteria 
+      description: How do we know we have succeeded? Outcomes, Measures & Metrics.
+      placeholder: |
+       examples:
+       - Company search function returns original name and address.
+       - Unincorporated entities do not appear when run search query.
+       - Rolling backups present in AWS web console.
+    validations:
+      required: false
+  - type: markdown
+    attributes:
+      value: |
+       > **:bulb: Don't forget to set Size, % Complete, Assignee and Other labels on the Right pane 👉**
