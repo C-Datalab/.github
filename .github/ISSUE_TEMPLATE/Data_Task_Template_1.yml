@@ -25,11 +25,8 @@ body:
     attributes:
       label: (2) Acceptance Criteria 
       description: How do we know we have succeeded? Outcomes, Measures & Metrics.
-      placeholder: |
-       examples:
-       - Company search function returns original name and address.
-       - Unincorporated entities do not appear when run search query.
-       - Rolling backups present in AWS web console.
+      value: |
+       - Ensure changes conform to [Secure Developer Checklist](https://github.com/Autodesk/continuous-threat-modeling/blob/master/Secure_Developer_Checklist.md).
     validations:
       required: false
   - type: markdown
