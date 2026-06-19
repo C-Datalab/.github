@@ -71,6 +71,6 @@ body:
       description: Do not remove lines below. Add any specific testing instructions or notes here.
       value: |
         - Must pass UI tests
-        - [UI tests](https://github.com/C-Datalab/CDL-Automated-Tests/actions/workflows/ManualPublishToTestmo.yml)
+        - [UI tests](https://github.com/C-Datalab/CDL-Automated-Tests/actions/workflows/v2CStationManualPublishToTestmo.yml)
     validations:
       required: false
