@@ -14,3 +14,18 @@ jobs:
         with:
           project-url: https://github.com/orgs/C-Datalab/projects/1
           github-token: ${{ secrets.ISSUE_PAT }}
+          
+      - name: Assign to current sprint (Bugs only)
+        if: contains(github.event.issue.labels.*.name, 'bug')
+        env:
+          GH_TOKEN: ${{ secrets.ISSUE_PAT }}
+          ORGANIZATION: C-Datalab
+          PROJECT_NUMBER: 1
+          ITEM_ID: ${{ steps.add-project.outputs.itemId }}
+        run: |
+          # Modifies the 'Sprint' field of the added item to the current iteration
+          gh project item-edit \
+            --id "$ITEM_ID" \
+            --field-id "$(gh project field-list $PROJECT_NUMBER --owner $ORGANIZATION --format json | jq -r '.fields[] | select(.name=="Sprint") | .id')" \
+            --project-id "$(gh project list --owner $ORGANIZATION --format json | jq -r '.projects[] | select(.number=='$PROJECT_NUMBER') | .id')" \
+            --iteration-id "@current"
